@@ -11,3 +11,7 @@ Course > [egghead](https://egghead.io/lessons/typescript-setup-a-typescript-proj
         - run "parcel index.ts --target=node"
         - run "node dist/index.js"
 2.  configure typescript for react and jsx
+3.  understand the typescript compiler aka tsc
+    - you will barely use "tsc index.ts"
+    - create a tsconfig file instead "tsc --init"
+    - run "tsc" to compile using the tsconfig file
