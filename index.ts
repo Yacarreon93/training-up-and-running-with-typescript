@@ -60,5 +60,17 @@ const message1:number = greetWrong1('hello');
 // const message1:string = greetWrong1('hello'); // <- error
 const message2 = greetWrong2('hello');
 
-console.log(message1);
-console.log(message2);
+const input = document.getElementById('input') as HTMLInputElement
+// const input: HTMLInputElement = document.getElementById('input') // <- error
+// const input2 = document.getElementById('input') // <- error
+
+if (input) {
+    input.autofocus = true 
+    // input2.autofocus = true // <- error: without casting, the HTMLElement has no autofocus
+    
+    input.addEventListener('input', e => {
+        const i = e.currentTarget as HTMLInputElement
+        console.log(i.value)
+        // console.log(e.currentTarget.value) // <- error
+    })
+}
