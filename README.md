@@ -16,3 +16,4 @@ Course > [egghead](https://egghead.io/lessons/typescript-setup-a-typescript-proj
     - create a tsconfig file instead "tsc --init"
     - run "tsc" to compile using the tsconfig file
 4.  explore typescript by writing functions
+5.  unlock typescript features in vanilla js with ts check and jsdoc
