@@ -15,3 +15,4 @@ Course > [egghead](https://egghead.io/lessons/typescript-setup-a-typescript-proj
     - you will barely use "tsc index.ts"
     - create a tsconfig file instead "tsc --init"
     - run "tsc" to compile using the tsconfig file
+4.  explore typescript by writing functions
