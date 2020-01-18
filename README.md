@@ -19,3 +19,4 @@ Course > [egghead](https://egghead.io/lessons/typescript-setup-a-typescript-proj
 5.  unlock typescript features in vanilla js with ts check and jsdoc
 6.  html 5 work with dom elements in typescript using type assertions
     -   run "parcel index.html"
+7.  create your first generic in typescript

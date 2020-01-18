@@ -74,3 +74,13 @@ if (input) {
         // console.log(e.currentTarget.value) // <- error
     })
 }
+
+function fill<T>(array:any[], value:T):T[] {
+    return array.map(() => value);
+}
+
+const result1 = fill([1, 2, 3], 'a') 
+result1.map(value => console.log(typeof value))
+
+const result2 = fill(['a', 'b', 'c'], 4)
+result2.map(value => console.log(typeof value))
