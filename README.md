@@ -20,3 +20,5 @@ Course > [egghead](https://egghead.io/lessons/typescript-setup-a-typescript-proj
 6.  html 5 work with dom elements in typescript using type assertions
     -   run "parcel index.html"
 7.  create your first generic in typescript
+8.  use type definitions for popular projects on npm with types
+    - installing definitions give you access to autocomplete and typing
